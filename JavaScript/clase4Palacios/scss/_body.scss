@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background: url(../imagenes/Background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: grid;
+}
+
+.carruselIndex {
+	display: grid;
+	transform: translate(350px) scale(2,1);
+	margin-bottom: 100px;
+}
+
+.descripcion{
+	color: whitesmoke;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: large;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+nav{
+	text-align: center;
+	background-color: black;
+
+}
+nav{
+	ul{ 
+		display: flex;
+		justify-content: center;
+		li{
+			display: inline-block;
+			background-color: floralwhite;
+			padding: 10px 10px 10px 10px;
+			border-radius: 30px;
+			box-shadow: 5px 5px 5px black;
+			font-family: 'Permanent Marker', cursive;
+			margin-top: 20px;
+			margin-bottom: 50px;
+			margin-left: 50px;
+			margin-right: 50px;
+			}	
+		}
+}
+
+

@@ -1,0 +1,42 @@
+.content{ 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 50px;
+	border: solid white;
+	.card {
+	background-color: transparent;
+	color: white;
+	}
+}
+
+.contentcat{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-right: 10px;
+	margin-left: 10px;
+	.card {
+	background-color: transparent;
+	color: white;
+	border: solid white;
+	width: 100%;
+	}
+}
+
+
+
+
+ 
+
+
+
+
+
