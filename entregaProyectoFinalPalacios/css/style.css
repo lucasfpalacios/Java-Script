@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Permanent+Marker&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Permanent+Marker&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Freckle+Face&family=Great+Vibes&family=Merienda+One&family=Permanent+Marker&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Freckle+Face&family=Great+Vibes&family=Merienda+One&family=Permanent+Marker&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Freckle+Face&family=Great+Vibes&family=Merienda+One&family=Permanent+Marker&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Freckle+Face&family=Great+Vibes&family=Merienda+One&family=Permanent+Marker&family=Press+Start+2P&display=swap");
+#barra {
+  min-height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #00439c, dodgerblue);
+}
+#barra ul {
+  list-style-type: none;
+}
+#barra ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+#barra ul li li a {
+  color: cornsilk;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.encabezado__titulo {
+  padding: 2em;
+  color: wheat;
+  font-family: "Press Start 2P", cursive;
+  font-size: xx-large;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  margin-bottom: 50px;
+}
+.encabezado__titulo h1 {
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.subtitulos {
+  color: #c482ae;
+  font-family: "Bungee Inline", cursive;
+  font-size: xx-large;
+  text-align: center;
+  text-shadow: 50px;
+  margin-bottom: 50px;
+}
+
+.boton {
+  border: none;
+  min-width: 180px;
+  height: 50px;
+  padding: 0 30px;
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #403CC2;
+  transition: 0.3s ease all;
+}
+
+.boton:hover {
+  background: #1B1881;
+  text-decoration: none;
+}
+
+.boton--absolute {
+  position: absolute;
+  right: 20px;
+  bottom: -25px;
+}
+
+.boton__texto {
+  font-weight: 600;
+}
+
+#footer {
+  min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: small;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #e3f2fd;
+  margin-top: 100px;
+}
+#footer .PdePag {
+  display: flex;
+  display: inline-block;
+  padding: 10px 10px 10px;
+}
+#footer .PdePag .nosotros a {
+  color: black;
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+#footer .PdePag .titulo__footer {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-right: 200px;
+}
+
+.parrafo {
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.localizacion {
+  color: black;
+  font-size: medium;
+  margin-top: 150px;
+}
+
+.redes img {
+  display: flex;
+  flex-direction: column;
+  max-width: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.redes .instagram {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.redes .instagram p {
+  margin-left: 10px;
+  color: black;
+  font-size: 20px;
+}
+.redes .youtube {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.redes .youtube p {
+  margin-left: 10px;
+  color: black;
+  font-size: 20px;
+}
+.redes .twitter {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.redes .twitter p {
+  margin-left: 10px;
+  color: black;
+  font-size: 20px;
+}
+.redes .mail {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.redes .mail p {
+  margin-left: 10px;
+  color: black;
+  font-size: 20px;
+}
+.redes .linkedin {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.redes .linkedin p {
+  margin-left: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  border: 3px solid black;
+  height: 0px;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.video iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.contenedor-video {
+  width: 40%;
+  margin: auto;
+}
+
+.texto {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.texto h2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  color: burlywood;
+  text-decoration: underline;
+  font-family: "Freckle Face", cursive;
+}
+.texto p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  font-style: italic;
+}
+
+.consolas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.consolas__titulo {
+  font-family: "Freckle Face", cursive;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 300;
+  font-size: xx-large;
+  color: bisque;
+  text-align: center;
+  line-height: 10rem;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  border: solid white;
+}
+.contenedor .card {
+  background-color: transparent;
+  color: white;
+}
+
+.contentcat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.contentcat .card {
+  background-color: transparent;
+  color: white;
+  border: solid white;
+  width: 100%;
+}
+
+#acVideo {
+  display: none;
+}
+
+#tlVideo {
+  display: none;
+}
+
+#cVideo {
+  display: none;
+}
+
+#dsVideo {
+  display: none;
+}
+
+#vVideo {
+  display: none;
+}
+
+#gVideo {
+  display: none;
+}
+
+#bVideo {
+  display: none;
+}
+
+#dVideo {
+  display: none;
+}
+
+#mmVideo {
+  display: none;
+}
+
+#rVideo {
+  display: none;
+}
+
+#wVideo {
+  display: none;
+}
+
+#gowVideo {
+  display: none;
+}
+
+#cbVideo {
+  display: none;
+}
+
+#wowVideo {
+  display: none;
+}
+
+#valVideo {
+  display: none;
+}
+
+#lolVideo {
+  display: none;
+}
+
+#csVideo {
+  display: none;
+}
+
+#fVideo {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../imagenes/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+}
+
+.carruselIndex {
+  display: grid;
+  transform: translate(350px) scale(2, 1);
+  margin-bottom: 100px;
+}
+
+.descripcion {
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+nav {
+  text-align: center;
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  display: inline-block;
+  background-color: floralwhite;
+  padding: 10px 10px 10px 10px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px black;
+  font-family: "Permanent Marker", cursive;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+form {
+  border-block: black;
+  color: bisque;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 800px;
+  margin-right: 800px;
+}
+form .botSubmite {
+  display: flex;
+  justify-content: baseline;
+  margin-top: 20px;
+}
+form .registrarse {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

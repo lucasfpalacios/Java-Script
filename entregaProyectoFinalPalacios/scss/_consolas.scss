@@ -1,0 +1,23 @@
+
+.consolas{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		justify-content: space-around;
+		margin: auto;
+}
+
+.consolas__titulo{
+	font-family: 'Freckle Face', cursive;
+	font-style: italic;
+	text-decoration: underline;
+	font-weight: 300;
+	font-size: xx-large;
+	color: bisque;
+	text-align: center;
+	line-height: 10rem;
+
+}
+
+

@@ -1,0 +1,44 @@
+.video {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+	border: 3px solid black;
+	height: 0px;
+	padding-bottom: 56.25%;
+	position: relative;
+	iframe {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		height: 100%;
+		width: 100%;
+	}
+}
+.contenedor-video {
+	width: 40%;
+	margin: auto;
+}
+
+.texto {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	h2 {
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+		color: burlywood;
+		text-decoration: underline;
+		font-family: 'Freckle Face', cursive;
+	}
+	p {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+		margin-left: 50px;
+		margin-right: 50px;
+		color: white;
+		font-style: italic;
+	}
+}

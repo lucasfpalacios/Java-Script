@@ -1,0 +1,24 @@
+form {
+    border-block: black;
+    color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 800px;
+    margin-right: 800px;
+
+    .botSubmite{
+        display: flex;
+        justify-content: baseline;
+        margin-top: 20px;
+    }
+    .registrarse{
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+
+    }
+}
