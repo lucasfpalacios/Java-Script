@@ -299,76 +299,17 @@
   width: 100%;
 }
 
-#acVideo {
+#acVideo, #tlVideo, #cVideo, #dsVideo, #vVideo, #gVideo, #bVideo, #dVideo, #mmVideo, #rVideo, #wVideo, #gowVideo, #cbVideo, #wowVideo, #valVideo, #lolVideo, #csVideo, #fVideo {
   display: none;
 }
 
-#tlVideo {
-  display: none;
-}
-
-#cVideo {
-  display: none;
-}
-
-#dsVideo {
-  display: none;
-}
-
-#vVideo {
-  display: none;
-}
-
-#gVideo {
-  display: none;
-}
-
-#bVideo {
-  display: none;
-}
-
-#dVideo {
-  display: none;
-}
-
-#mmVideo {
-  display: none;
-}
-
-#rVideo {
-  display: none;
-}
-
-#wVideo {
-  display: none;
-}
-
-#gowVideo {
-  display: none;
-}
-
-#cbVideo {
-  display: none;
-}
-
-#wowVideo {
-  display: none;
-}
-
-#valVideo {
-  display: none;
-}
-
-#lolVideo {
-  display: none;
-}
-
-#csVideo {
-  display: none;
-}
-
-#fVideo {
-  display: none;
+.videoCentrar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
@@ -435,11 +376,13 @@ form {
 }
 form .botSubmite {
   display: flex;
-  justify-content: baseline;
+  background-color: dodgerblue;
+  justify-content: center;
   margin-top: 20px;
 }
 form .registrarse {
   display: flex;
+  background-color: dodgerblue;
   margin-top: 20px;
   justify-content: center;
 }
